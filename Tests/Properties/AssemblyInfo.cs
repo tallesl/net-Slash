@@ -5,8 +5,8 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Slash")]
-[assembly: AssemblyDescription("Utility methods for dealing with slashes in strings.")]
+[assembly: AssemblyTitle("Slash.Tests")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("f6a54a92-536e-4c57-8bd3-fb5e9dd466e1")]
+[assembly: Guid("14bbdbf7-7afa-430c-af26-cfc1bd85b94d")]
 
 // Version information for an assembly consists of the following four values:
 //
