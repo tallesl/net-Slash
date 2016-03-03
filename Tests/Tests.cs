@@ -82,8 +82,8 @@
             Assert.IsTrue(new[] { "One", "Two", "Three" }.SequenceEqual(Slash.Split(@"One/Two/Three")));
             Assert.IsTrue(new[] { "One", "Two", "Three" }.SequenceEqual(Backslash.Split(@"One\Two\Three")));
 
-            Assert.IsTrue(new[] { "One", "", "Two", "", "Three" }.SequenceEqual(Slash.Split(@"One//Two//Three", false)));
-            Assert.IsTrue(new[] { "One", "", "Two", "", "Three" }.SequenceEqual(Backslash.Split(@"One\\Two\\Three", false)));
+            Assert.IsTrue(new[] { "One", "", "Two", "", "Three" }.SequenceEqual(Slash.SplitLeavingEmpty(@"One//Two//Three")));
+            Assert.IsTrue(new[] { "One", "", "Two", "", "Three" }.SequenceEqual(Backslash.SplitLeavingEmpty(@"One\\Two\\Three")));
 
             Assert.IsTrue(new[] { "Nothing to split." }.SequenceEqual(Slash.Split("Nothing to split.")));
             Assert.IsTrue(new[] { "Nothing to split." }.SequenceEqual(Backslash.Split("Nothing to split.")));

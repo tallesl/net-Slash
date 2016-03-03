@@ -14,12 +14,12 @@
 
         internal bool StartsWith(string @string)
         {
-            return @string.StartsWith(_slash.ToString());
+            return @string.StartsWith(_slash.ToString(), StringComparison.Ordinal);
         }
 
         internal bool EndsWith(string @string)
         {
-            return @string.EndsWith(_slash.ToString());
+            return @string.EndsWith(_slash.ToString(), StringComparison.Ordinal);
         }
 
         internal string Trim(string @string)
