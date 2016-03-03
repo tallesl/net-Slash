@@ -1,4 +1,4 @@
-﻿namespace Slashes.Tests
+﻿namespace SlashLibrary.Tests
 {
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using System.Linq;

@@ -1,4 +1,4 @@
-﻿namespace Slashes
+﻿namespace SlashLibrary
 {
     /// <summary>
     /// Utility methods for dealing with slashes in strings.

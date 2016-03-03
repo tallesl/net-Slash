@@ -1,4 +1,4 @@
-﻿namespace Slashes
+﻿namespace SlashLibrary
 {
     using System;
     using System.Linq;

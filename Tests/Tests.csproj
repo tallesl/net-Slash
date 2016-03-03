@@ -6,7 +6,7 @@
     <ProjectGuid>{F9AF5574-8274-4EF5-B15C-9D1A5EE227DA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Slashes.Tests</RootNamespace>
+    <RootNamespace>SlashLibrary.Tests</RootNamespace>
     <AssemblyName>Slash.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
